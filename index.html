@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/icons/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,700&display=swap" rel="stylesheet">
+        <title>Universe Petshop</title>
+    </head>
+    <body>
+        <header id="header">
+            <nav class="nav container show">
+                <div class="left grid">
+                    <a href="#"><img src="assets/logo.png" alt="Logo do site"></a>
+                    <div class="menu">
+                        <ul class="grid">
+                            <li class="txt-nav"><a href="#">Incio</a></li>
+                            <li class="txt-nav"><a href="#">Serviços</a></li>
+                            <li class="txt-nav"><a href="#">Quem somos</a></li>
+                            <li class="txt-nav"><a href="#">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="rigth">
+                    <div class="toggle icon-menu"></div>
+                    <div class="toggle icon-x"></div>
+                    <a class="btn-contatar" href="#">
+                        Contatar
+                        <span class="icon-arrow-right"></span>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <main>
+                <!-- HOME -->
+            <section class="section" id="home">
+                <div class="container grid">
+                    <div class="text grid">
+                        <h2 class="title">Universe Petshop</h2>
+                        <p>Lorem, ipsum dolor sit amet</p>
+                        <a class="button" href="#">Ver serviço</a>
+                    </div>
+                    <div class="image grid">
+                        <img src="assets/cachorro.png" alt="">
+                    </div>
+                </div>
+            </section>
+      <!-- SERVIÇOS -->
+      <section class="section" id="services">
+        <div class="container grid">
+          <div class="cards grid">
+            
+            <!-- CARD 1 -->
+            <div class="card left card-equal">
+              <h4>CASTRAÇÃO</h4>
+              <div class="image">
+                <img src="assets/castracao.png" alt="Coração com pata dentro">
+              </div>
+            </div>
+
+            <!-- CARD 2  -->
+            <div class="card card-diff">
+              <h4>BANHO E TOSA</h4>
+              <div class="image">
+                <img src="assets/shampoo.png" alt="Shampoo para pet">
+              </div>
+              <p>Nós oferecemos um cuidado cheio de carinho e amor</p>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="card right card-equal">
+              <h4>PRODUTOS</h4>
+              <div class="image">
+                <img src="assets/produtos.png" alt="">
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="divider"></div>
+            </section>
+            <!-- QUEM SOMOS -->
+
+            <section class="section" id="about">
+                <div class="container grid">
+                    <div class="text">
+                        <h2 class="title">QUEM SOMOS</h2>
+                        <p>Informações relevantes e úteis sobre a empresa. Seja claro e objetivo ao descrever a sua empresa. ... Apresente suas qualidades e experiências importantes. Mostre ao cliente a qualidade do seu serviço/produto.                           
+                        </p>
+                    </div>
+                    <div class="image">
+                        <div class="image-gato">
+                            <img src="assets/gato.png" alt="imagem de um gato">
+                        </div>    
+                        <a class="button" href="#">Ver serviço</a>
+                    </div>
+                </div>
+            </section>
+            <!-- CONTATO -->
+            <section class="section" id="contact">
+                <div class="container grid">
+                    <div class="content">
+                        <h2 class="title">ENTRE EM CONTATO</h2>
+                        <form class="form" onsubmit="return validForm()">
+                            <label for="name">Nome</label>
+                            <input class="input" id="name" type="text">
+                            <label for="phone">Telefone</label>
+                            <input class="input" id="phone" type="text">
+                            <label for="email">Email</label>
+                            <input class="input" id="email" type="text">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" cols="21" rows="10"></textarea>
+                            <button class="button" href="#">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <div class="container grid">
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3708.022798269007!2d-45.72711918464488!3d-21.662970500117087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ca67bd3695a01f%3A0x61697b0f7c11ec3d!2sGuaipava%2C%20Paragua%C3%A7u%20-%20MG%2C%2037120-000!5e0!3m2!1spt-BR!2sbr!4v1628032774180!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="social">
+                    <h5>
+                        <span class="icon icon-phone"></span>
+                        <p>(00) 0 0000-0000</p>
+                    </h5>
+                    <h5>
+                        <span class="icon icon-whatsapp"></span>
+                        <p>(00) 0 0000-0000</p>
+                    </h5>
+                    <h5>
+                        <span class="icon icon-instagram"></span>
+                        <p>@petshop</p>
+                    </h5>
+                </div>
+            </div>
+            <p>Todos os direitos reservados - 2021</p>
+        </footer>
+        <script src="assets/js/index.js"></script>
+    </body>
+</html>
